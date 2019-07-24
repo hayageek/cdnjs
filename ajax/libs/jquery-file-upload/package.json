@@ -9,15 +9,6 @@
     "ajax",
     "progressbar"
   ],
-  "author": "Ravishanker Kusuma (http://hayageek.com)",
-  "maintainers": [
-    "Ravishanker Kusuma <ravi@hayageek.com> (http://hayageek.com)"
-  ],
-  "homepage": "https://github.com/hayageek/jquery-upload-file",
-  "dependencies": {
-    "jquery": ">=1.6",
-    "form": ""
-  },
   "repository": {
     "type": "git",
     "url": "git@github.com:hayageek/jquery-upload-file.git"
