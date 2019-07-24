@@ -31,17 +31,5 @@
         "**/*"
       ]
     }
-  ],
-   "autoupdate": {
-    "source": "git",
-    "target": "git@github.com:hayageek/jquery-upload-file.git",
-    "fileMap": [
-      {
-        "basePath": "dist",
-        "files": [
-           "**/*"
-        ]
-      }
-    ]
-  }
+  ]
 }
