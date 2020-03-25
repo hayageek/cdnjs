@@ -1,6 +1,6 @@
 {
   "name": "jquery-file-upload",
-  "filename": "jquery-file-upload.js",
+  "filename": "jquery.uploadfile.min.js",
   "description": "jQuery Upload File plugin provides Multiple file Uploads with progress bar.Works with any server-side platform (Google App Engine, PHP, Python, Ruby on Rails, Java, etc.) that supports standard HTML form file uploads.",
   "keywords": [
     "jquery",
@@ -17,9 +17,15 @@
   "npmName": "jquery-file-upload",
   "npmFileMap": [
     {
-      "basePath": "dist",
+      "basePath": "js",
       "files": [
-        "**/*"
+        "?(jquery.)uploadfile*.js"
+      ]
+    },
+    {
+      "basePath": "css",
+      "files": [
+        "uploadfile!(.custom)*.css"
       ]
     }
   ]
